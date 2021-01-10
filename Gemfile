@@ -63,3 +63,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Keep secret keys from being accesses by Github in the dev env
 gem 'dotenv-rails', groups: [:development, :test]
+
+# Handle persistent data from users
+gem 'cloudinary', '~> 1.16.0'
